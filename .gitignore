@@ -1,0 +1,7 @@
+myenv/__pycache__
+myenv/.ipynb_checkpoints
+myenv/etc
+myenv/Include
+myenv/Lib
+myenv/Scripts
+myenv/share
