@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    vivalchemy:  # Username
+      email: dark03.testing@gmail.com  # Optional email
+      name: Vivian Ludrick  # Full name
+      password: $2b$12$xaJNNoSGqccbt5VO0ajs3eMUYcdyeRwdXn7Ej4wBmwdwUPzYy9u3y # Hashed password (replace with actual hash)
+    jdmello:
+      email: jdmello@email.com
+      name: Joshua Dmello
+      password: $2b$12$j5Ne.nXI8xHrWL20R6aAiOU3BoU2aq96r/pHZv8vZhib5xK32X6bm 
+cookie:
+  expiry_days: 30  # Set cookie expiry days (optional)
+  key: ml_salary_prediction  # Secret key for JWT cookie
+  name: my_app_auth_cookie  # Cookie name (optional)
+preauthorized:  # Optional list of pre-authorized emails for registration
+  emails:
+    - admin@gmail.com
