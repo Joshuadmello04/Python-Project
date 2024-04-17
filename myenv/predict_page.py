@@ -33,7 +33,7 @@ def show_predict_page():
         "Poland",
         "Italy",
         "Russian Federation",
-        "Sweden",
+        "Sweden",           
     )
 
     education = (
@@ -56,4 +56,7 @@ def show_predict_page():
         X = X.astype(float)
 
         salary = regressor.predict(X)
+        usd = salary[0]
+        inr = usd*(83.64)
         st.subheader(f"The estimated salary is ${salary[0]:.2f}")
+        st.subheader(f"Estimated Salary in Inr is Rs.{inr:.2f}")
